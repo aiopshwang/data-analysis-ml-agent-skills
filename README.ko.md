@@ -4,6 +4,10 @@
 
 [English](README.md) · [방법론](docs/methodology.md) · [평가 방식](docs/evaluation.md) · [기여 안내](CONTRIBUTING.md)
 
+[![Decision-Grade Data Science 워크플로: 엉킨 데이터가 감사와 검증 단계를 거쳐 검증되고 재현 가능한 의사결정으로 연결됩니다.](docs/assets/decision-grade-data-science-hero.webp)](docs/methodology.md)
+
+*엉킨 데이터를 방어 가능한 의사결정으로 — [근거 중심 방법론 보기](docs/methodology.md).*
+
 Decision-Grade Data Science는 에이전트가 분석 코드를 빨리 만드는 데서 멈추지 않고, 실제 의사결정과 그 결정을 뒷받침하는 근거의 연결을 보존하도록 만듭니다.
 
 ## 왜 필요한가

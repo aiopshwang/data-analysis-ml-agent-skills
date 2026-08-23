@@ -4,6 +4,10 @@
 
 [한국어](README.ko.md) · [Methodology](docs/methodology.md) · [Evaluation](docs/evaluation.md) · [Contributing](CONTRIBUTING.md)
 
+[![Decision-Grade Data Science workflow: messy data passes through audited evidence checkpoints to a validated, reproducible decision.](docs/assets/decision-grade-data-science-hero.webp)](docs/methodology.md)
+
+*From messy data to defensible decisions — [see the evidence-first methodology](docs/methodology.md).*
+
 Decision-Grade Data Science teaches coding agents to preserve the chain from a real decision to the evidence that supports it. It is designed for work where a polished notebook or a high validation score is not enough.
 
 ## Why this exists

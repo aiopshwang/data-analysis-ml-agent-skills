@@ -2,6 +2,11 @@
 
 All notable changes are documented here.
 
+## Unreleased
+
+- Added original evidence-pipeline artwork to the English, Korean, and GitHub Pages landing pages.
+- Added an optimized default Open Graph and social preview image for the documentation site.
+
 ## 0.1.0 - 2026-08-23
 
 - Introduced six evidence-first data analysis and machine learning skills.

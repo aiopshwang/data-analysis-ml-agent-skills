@@ -7,6 +7,10 @@ description: Evidence-first AI agent skills for reliable data analysis, machine 
 
 Open-source agent skills that turn ambiguous questions and messy data into auditable analyses and decision-ready models.
 
+[![Decision-Grade Data Science workflow: messy data passes through audited evidence checkpoints to a validated, reproducible decision.](assets/decision-grade-data-science-hero.webp)](methodology.md)
+
+*From messy data to defensible decisions — [see the evidence-first methodology](methodology.md).*
+
 ## The workflow
 
     frame the decision
