@@ -15,6 +15,7 @@ TEXT_SUFFIXES = {
     ".toml",
     ".txt",
     ".tsv",
+    ".xml",
     ".yaml",
     ".yml",
 }

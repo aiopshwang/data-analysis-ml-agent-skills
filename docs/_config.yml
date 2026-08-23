@@ -2,4 +2,8 @@ title: "Decision-Grade Data Science"
 description: "Evidence-first AI agent skills for data analysis, machine learning, model validation, and reproducibility."
 theme: jekyll-theme-cayman
 repository: "aiopshwang/data-analysis-ml-agent-skills"
+url: "https://aiopshwang.github.io"
+baseurl: "/data-analysis-ml-agent-skills"
 show_downloads: true
+plugins:
+  - jekyll-seo-tag

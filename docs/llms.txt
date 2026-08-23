@@ -1,0 +1,19 @@
+# Decision-Grade Data Science
+
+> Open-source AI agent skills for evidence-first data analysis, machine learning, model validation, failure diagnosis, and reproducible handoff.
+
+## Documentation
+
+- [Overview](https://aiopshwang.github.io/data-analysis-ml-agent-skills/)
+- [Methodology](https://aiopshwang.github.io/data-analysis-ml-agent-skills/methodology.html)
+- [Evaluation](https://aiopshwang.github.io/data-analysis-ml-agent-skills/evaluation.html)
+- [Repository](https://github.com/aiopshwang/data-analysis-ml-agent-skills)
+
+## Skills
+
+- [Run Decision-Grade Data Science](https://github.com/aiopshwang/data-analysis-ml-agent-skills/tree/main/skills/running-decision-grade-data-science)
+- [Audit Data and Ground Truth](https://github.com/aiopshwang/data-analysis-ml-agent-skills/tree/main/skills/auditing-data-and-ground-truth)
+- [Design Leakage-Safe Experiments](https://github.com/aiopshwang/data-analysis-ml-agent-skills/tree/main/skills/designing-leakage-safe-experiments)
+- [Validate Models and Claims](https://github.com/aiopshwang/data-analysis-ml-agent-skills/tree/main/skills/validating-models-and-claims)
+- [Diagnose ML Failures](https://github.com/aiopshwang/data-analysis-ml-agent-skills/tree/main/skills/diagnosing-ml-failures)
+- [Ship Reproducible Results](https://github.com/aiopshwang/data-analysis-ml-agent-skills/tree/main/skills/shipping-reproducible-results)
