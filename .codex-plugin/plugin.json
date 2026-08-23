@@ -1,0 +1,35 @@
+{
+  "name": "data-analysis-ml-agent-skills",
+  "version": "0.1.0",
+  "description": "Evidence-first AI agent skills for reliable data analysis, machine learning, and reproducible model validation.",
+  "author": {
+    "name": "aiopshwang",
+    "url": "https://github.com/aiopshwang"
+  },
+  "homepage": "https://github.com/aiopshwang/data-analysis-ml-agent-skills#readme",
+  "repository": "https://github.com/aiopshwang/data-analysis-ml-agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "data-analysis",
+    "data-science",
+    "machine-learning",
+    "data-quality",
+    "model-validation",
+    "reproducibility"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Decision-Grade Data Science",
+    "shortDescription": "Evidence-first data analysis and ML workflows.",
+    "longDescription": "Turn ambiguous questions and messy data into auditable analyses and decision-ready models through explicit problem framing, data and ground-truth audits, leakage-safe experiments, independent validation, failure diagnosis, and reproducible handoff.",
+    "developerName": "aiopshwang",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Audit this dataset before I model it.",
+      "Design a leakage-safe modeling experiment.",
+      "Validate whether these model results support the claim."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+account_id,non_renewal_30d,observed_through,label_source
+A001,0,2026-07-01,billing_snapshot
+A002,1,2026-07-01,billing_snapshot
+A003,0,2026-06-20,billing_snapshot
+A003,1,2026-07-01,manual_override
+A004,1,2026-07-01,billing_snapshot
+A005,0,2026-07-01,billing_snapshot
+A006,1,2026-07-01,billing_snapshot
+A007,0,2026-07-01,billing_snapshot
+A008,,2026-06-18,billing_snapshot

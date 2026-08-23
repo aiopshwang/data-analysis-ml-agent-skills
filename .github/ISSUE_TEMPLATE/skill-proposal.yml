@@ -1,0 +1,33 @@
+name: Skill or workflow proposal
+description: Propose a new user goal or a material change to an existing workflow.
+title: "[Proposal] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: User goal
+      description: What recognizable outcome should the agent deliver?
+    validations:
+      required: true
+  - type: textarea
+    id: failure
+    attributes:
+      label: Current failure mode
+      description: What goes wrong today, and why is an existing skill insufficient?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and evaluation
+      description: Give safe examples and describe observable tests, including a negative case.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Boundaries
+      description: When should this workflow not activate?
+    validations:
+      required: true

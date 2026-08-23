@@ -1,0 +1,56 @@
+schema_version: "1.0"
+run:
+  id: "RUN_ID"
+  started_at: "ISO_8601_TIMESTAMP"
+  completed_at: "ISO_8601_TIMESTAMP"
+  status: null
+  canonical_command: "COMMAND_FROM_CLEAN_STATE"
+code_identity:
+  repository: null
+  revision: null
+  source_bundle: null
+  source_bundle_sha256: null
+  dirty_worktree: null
+environment:
+  runtime: "RUNTIME_AND_VERSION"
+  lockfile:
+    path: "LOCKFILE_PATH"
+    sha256: "LOCKFILE_SHA256"
+  os_or_image: "OS_OR_CONTAINER_DIGEST"
+  hardware: "MATERIAL_HARDWARE_DETAILS"
+  timezone: "UTC"
+  locale: "LOCALE"
+  required_environment_variables:
+    - "VARIABLE_NAME_ONLY"
+  seeds:
+    global: null
+  known_nondeterminism: []
+inputs:
+  - id: "INPUT_ID"
+    location: "VERSIONED_LOCATION_OR_QUERY_ID"
+    sha256: "CONTENT_SHA256_OR_NULL"
+    schema_version: "SCHEMA_VERSION"
+    row_count: null
+    retrieval_time: "ISO_8601_TIMESTAMP"
+artifacts:
+  - id: "ARTIFACT_ID"
+    path: "RELATIVE_PATH"
+    role: "AUTHORITATIVE_OR_EXPLORATORY"
+    sha256: "CONTENT_SHA256"
+    produced_by: "PIPELINE_STEP"
+    upstream_ids:
+      - "INPUT_ID"
+acceptance:
+  - id: "CHECK_ID"
+    artifact_id: "ARTIFACT_ID"
+    comparison: "sha256"
+    expected: "EXPECTED_VALUE"
+    tolerance: null
+    observed: "OBSERVED_VALUE"
+    passed: null
+validation:
+  protocol_id: "VALIDATION_PROTOCOL_VERSION"
+  evidence_ids: []
+  independent_runner: "RUNNER_ROLE_OR_ID"
+  clean_environment: null
+limitations: []

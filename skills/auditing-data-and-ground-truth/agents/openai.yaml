@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Data and Ground Truth"
+  short_description: "Verify data meaning, joins, labels, and lineage"
+  default_prompt: "Use $auditing-data-and-ground-truth to audit this dataset and its labels before I rely on the result."

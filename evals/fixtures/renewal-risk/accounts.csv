@@ -1,0 +1,9 @@
+account_id,signup_date,region,plan
+A001,2025-02-10,north,basic
+A002,2025-03-04,south,pro
+A003,2025-03-17,north,pro
+A004,2025-04-01,west,basic
+A005,2025-04-22,south,basic
+A006,2025-05-05,west,pro
+A007,2025-05-11,north,basic
+A008,2025-05-20,south,pro

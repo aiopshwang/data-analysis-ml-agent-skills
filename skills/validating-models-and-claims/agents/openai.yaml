@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validating Models and Claims"
+  short_description: "Test model and analysis claims against real evidence"
+  default_prompt: "Use $validating-models-and-claims to determine which of these model claims the evidence actually supports."

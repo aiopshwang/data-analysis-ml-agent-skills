@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnosing ML Failures"
+  short_description: "Isolate the cause of ML failures and regressions"
+  default_prompt: "Use $diagnosing-ml-failures to isolate the first broken layer behind this model regression."

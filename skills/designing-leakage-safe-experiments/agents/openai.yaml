@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Leakage-Safe Experiments"
+  short_description: "Plan fair ML tests without future information"
+  default_prompt: "Use $designing-leakage-safe-experiments to design a deployment-realistic, leakage-safe evaluation for this model."

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If this skill suite improves your data or modeling workflow, please cite the repository."
+title: "Decision-Grade Data Science: Data Analysis and ML Agent Skills"
+type: software
+authors:
+  - family-names: "Hwang"
+    given-names: "Hyunsik"
+repository-code: "https://github.com/aiopshwang/data-analysis-ml-agent-skills"
+url: "https://github.com/aiopshwang/data-analysis-ml-agent-skills"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-23

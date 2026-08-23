@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shipping Reproducible Results"
+  short_description: "Package auditable, independently reproducible results"
+  default_prompt: "Use $shipping-reproducible-results to package this analysis for an independent clean-room rerun and handoff."

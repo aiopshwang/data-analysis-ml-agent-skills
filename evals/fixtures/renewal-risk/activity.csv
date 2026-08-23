@@ -1,0 +1,17 @@
+account_id,snapshot_date,logins_30d,support_tickets_30d,cancellation_reason,final_invoice_status
+A001,2026-05-25,18,0,,pending
+A001,2026-06-08,15,0,,paid
+A002,2026-05-25,2,4,,pending
+A002,2026-06-08,0,5,budget,failed
+A003,2026-05-25,7,1,,pending
+A003,2026-06-08,5,2,,paid
+A004,2026-05-25,0,3,,pending
+A004,2026-06-08,0,3,no-use,failed
+A005,2026-05-25,12,0,,pending
+A005,2026-06-08,11,0,,paid
+A006,2026-05-25,4,2,,pending
+A006,2026-06-08,1,4,service,failed
+A007,2026-05-25,9,1,,pending
+A007,2026-06-08,8,1,,paid
+A008,2026-05-25,3,2,,pending
+A008,2026-06-08,2,2,,failed

@@ -1,0 +1,63 @@
+version: 1
+purpose: "Golden prompts for checking skill-selection precision and recall."
+skills:
+  running-decision-grade-data-science:
+    direct:
+      - "Use an evidence-first process to lead this data science project from question to handoff."
+      - "Plan and run this modeling project with explicit decision gates and reproducibility."
+    indirect:
+      - "I have several files and a vague prediction request. Help me turn it into a trustworthy end-to-end project."
+      - "Own the analysis, but pause when a material definition or business choice needs me."
+    negative:
+      - "Fix the spelling in this model-card paragraph."
+      - "Explain what linear regression is in two sentences."
+  auditing-data-and-ground-truth:
+    direct:
+      - "Audit this dataset and its labels before anyone trains a model."
+      - "Check the grain, joins, missingness, target timing, and ground-truth provenance."
+    indirect:
+      - "These tables join, but the row count doubled and I do not trust the labels."
+      - "The model disagrees with the benchmark labels; determine whether the benchmark itself is wrong."
+    negative:
+      - "Choose a color palette for my dashboard."
+      - "Deploy this already-validated model API."
+  designing-leakage-safe-experiments:
+    direct:
+      - "Design a leakage-safe baseline and comparison experiment for this classifier."
+      - "Create grouped cross-validation and precommit the metrics and adoption rule."
+    indirect:
+      - "My validation score is suspiciously high because each customer appears in several rows."
+      - "Compare a simple model and a transformer fairly without moving the goalposts."
+    negative:
+      - "Summarize the final experiment report for executives."
+      - "Diagnose why yesterday's production predictions are all empty."
+  validating-models-and-claims:
+    direct:
+      - "Independently validate this model and every performance claim in the report."
+      - "Check whether the evidence actually supports our launch recommendation."
+    indirect:
+      - "The notebook says accuracy improved, but I need a skeptical review before we decide."
+      - "Recompute the metrics at the real decision grain and inspect subgroup failures."
+    negative:
+      - "Create the first baseline for a dataset we have not inspected."
+      - "Format these citations in APA style."
+  diagnosing-ml-failures:
+    direct:
+      - "Diagnose why model performance dropped after the latest data batch."
+      - "Isolate this ML failure across data, transformation, model, and evaluation layers."
+    indirect:
+      - "The same code now produces worse results and several plausible causes are tangled together."
+      - "Replay the last good run, add changes one at a time, and record rejected hypotheses."
+    negative:
+      - "Write a fresh problem statement for a new analytics idea."
+      - "Package these already-verified artifacts for handoff."
+  shipping-reproducible-results:
+    direct:
+      - "Package this validated analysis so an independent reviewer can reproduce it."
+      - "Create the run manifest, evidence index, limitations, and handoff checklist."
+    indirect:
+      - "The notebook works on my laptop, but the recipient needs to rerun the exact result."
+      - "Prove the delivered archive matches the reported metrics from a clean start."
+    negative:
+      - "Tune hyperparameters to improve this model."
+      - "Investigate whether our labels use the wrong definition."

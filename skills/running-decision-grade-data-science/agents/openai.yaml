@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Decision-Grade Data Science"
+  short_description: "Turn data work into reproducible decisions"
+  default_prompt: "Use $running-decision-grade-data-science to turn this request into a decision-ready, reproducible data science workflow."

@@ -1,0 +1,48 @@
+name: Skill behavior bug
+description: Report incorrect routing, unsafe assumptions, or a reproducible workflow failure.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private data, credentials, or confidential project artifacts."
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Affected skill
+      options:
+        - running-decision-grade-data-science
+        - auditing-data-and-ground-truth
+        - designing-leakage-safe-experiments
+        - validating-models-and-claims
+        - diagnosing-ml-failures
+        - shipping-reproducible-results
+        - selection or installation
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Minimal safe request
+      description: Provide a synthetic or redacted prompt that reproduces the behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and why
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Agent host and version
+      placeholder: "Codex, Claude Code, Cursor, GitHub Copilot, or another host"
+    validations:
+      required: true
