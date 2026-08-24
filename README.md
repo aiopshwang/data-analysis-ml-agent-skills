@@ -1,6 +1,6 @@
 # Decision-Grade Data Science
 
-**Open-source AI agent skills for reliable data analysis, machine learning, and AI modeling—from ambiguous questions and messy data toward validated, reproducible decisions.**
+**Open-source AI agent skills for reliable data analysis, machine learning, and AI modeling — from ambiguous questions and messy data to validated, reproducible decisions.**
 
 [한국어](README.ko.md) · [Methodology](docs/methodology.md) · [Evaluation](docs/evaluation.md) · [Contributing](CONTRIBUTING.md)
 
@@ -8,7 +8,7 @@
 
 *From messy data to defensible decisions — [see the evidence-first methodology](docs/methodology.md).*
 
-Decision-Grade Data Science teaches coding agents to preserve the chain from a real decision to the evidence that supports it. It is designed for work where a polished notebook or a high validation score is not enough.
+Seven skills — a router, a lifecycle orchestrator, and five specialists — that teach coding agents to preserve the chain from a real decision to the evidence that supports it. Built for work where a polished notebook or a high validation score is not enough.
 
 ## Why this exists
 
@@ -28,8 +28,19 @@ The goal is not to slow work down. It is to make speed come from clear decisions
 
 ## Skills
 
+One router picks the right entry, one orchestrator runs the full lifecycle, and five specialists own its stages:
+
+    using-data-analysis  (router — start here when the right skill is unclear)
+      └─ running-decision-grade-data-science  (orchestrates the lifecycle)
+           1. auditing-data-and-ground-truth      — audit
+           2. designing-leakage-safe-experiments  — experiment design
+           3. validating-models-and-claims        — validation
+           4. diagnosing-ml-failures              — diagnosis
+           5. shipping-reproducible-results       — reproducible handoff
+
 | Skill | Use it for |
 |---|---|
+| [Using Data Analysis Skills](skills/using-data-analysis/SKILL.md) — *entry point* | Route any data analysis or ML request to the narrowest matching skill |
 | [Run Decision-Grade Data Science](skills/running-decision-grade-data-science/SKILL.md) | Orchestrate an ambiguous or end-to-end data science project |
 | [Audit Data and Ground Truth](skills/auditing-data-and-ground-truth/SKILL.md) | Verify grain, joins, time semantics, missingness, labels, and source-of-truth reliability |
 | [Design Leakage-Safe Experiments](skills/designing-leakage-safe-experiments/SKILL.md) | Lock prediction timing, splits, baselines, metrics, and fair comparisons |
@@ -37,7 +48,7 @@ The goal is not to slow work down. It is to make speed come from clear decisions
 | [Diagnose ML Failures](skills/diagnosing-ml-failures/SKILL.md) | Isolate regressions across data, labels, pipelines, artifacts, metrics, and runtime |
 | [Ship Reproducible Results](skills/shipping-reproducible-results/SKILL.md) | Package provenance, reproduction status, limitations, and handoff ownership |
 
-Each skill includes focused instructions, deeper reference material, and a reusable output template. Use the end-to-end skill for a full project and the narrower skills for isolated goals.
+Each skill includes focused instructions, deeper reference material, and a reusable output template. Use the orchestrator for a full project and the narrower skills for isolated goals; the router selects for you when the match is not obvious.
 
 ## Install
 
@@ -66,11 +77,13 @@ Clone the repository, review the selected directory, and copy it into your agent
 
     git clone https://github.com/aiopshwang/data-analysis-ml-agent-skills.git
 
-The repository also includes a Codex plugin manifest at [.codex-plugin/plugin.json](.codex-plugin/plugin.json).
+The repository also ships plugin manifests for Claude Code at [.claude-plugin/plugin.json](.claude-plugin/plugin.json) and for Codex at [.codex-plugin/plugin.json](.codex-plugin/plugin.json).
 
 ## Try it
 
 Examples:
+
+    Use $using-data-analysis to pick the right skill in this suite for my analysis task.
 
     Use $running-decision-grade-data-science to turn this vague churn-model request into a decision-ready project.
 
@@ -118,7 +131,7 @@ The repository checks manifest and frontmatter integrity, local links, UI metada
     python scripts/scan_public.py
     pytest
 
-The [trigger prompt set](evals/trigger-prompts.yaml) contains direct, indirect, and negative cases for all seven skills. Static checks do not prove behavior; see the [v0.1.0 independent forward-test record](evals/results/v0.1.0-forward-test.md) for one realistic readiness scenario.
+The [trigger prompt set](evals/trigger-prompts.yaml) contains direct, indirect, and negative cases for all seven skills. Static checks do not prove behavior; see the [v0.1.0 independent forward-test record](evals/results/v0.1.0-forward-test.md) for one realistic readiness scenario run by an independent evaluator on a synthetic fixture.
 
 ## Privacy and security
 
