@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Decision-Grade Data Science</title>
+  <desc id="desc">From messy data to defensible decisions. AI agent skills for Codex and Claude Code.</desc>
+  <defs>
+    <linearGradient id="background" x1="80" y1="40" x2="1200" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121A34"/>
+      <stop offset="1" stop-color="#090D1A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1050 92) rotate(135) scale(610 440)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B5CF0" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#5B5CF0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="proof" x1="1062" y1="224" x2="1216" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8F5E6"/>
+      <stop offset="1" stop-color="#79D8C1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="40" fill="url(#background)"/>
+  <rect width="1280" height="640" rx="40" fill="url(#glow)"/>
+  <path d="M0 520C292 422 482 602 758 504c204-72 322-236 522-186v322H0Z" fill="#5B5CF0" opacity=".08"/>
+  <rect x="72" y="72" width="258" height="48" rx="24" fill="#FFFFFF" opacity=".08"/>
+  <circle cx="101" cy="96" r="7" fill="#91E4CF"/>
+  <text x="120" y="104" fill="#DDE1FF" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="650" letter-spacing=".8">AI AGENT SKILLS</text>
+  <text x="72" y="244" fill="#FFFFFF" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="76" font-weight="780" letter-spacing="-3.2">Decision-Grade</text>
+  <text x="72" y="326" fill="#FFFFFF" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="76" font-weight="780" letter-spacing="-3.2">Data Science</text>
+  <text x="78" y="404" fill="#BFC6DD" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="33" font-weight="520">From messy data to defensible decisions.</text>
+  <text x="78" y="447" fill="#8F99B6" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="480">Six skills for analysis, ML, and reproducibility.</text>
+  <rect x="76" y="482" width="324" height="62" rx="31" fill="#5B5CF0"/>
+  <text x="238" y="522" fill="#FFFFFF" text-anchor="middle" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="680">Codex · Claude Code</text>
+  <circle cx="880" cy="332" r="94" fill="none" stroke="#FFFFFF" stroke-width="34"/>
+  <path d="M836 374V286M836 374h96" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="m850 354 24-22 24 7 27-39" fill="none" stroke="#B8F5E6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="850" cy="354" r="9" fill="#FFFFFF"/>
+  <circle cx="874" cy="332" r="9" fill="#79D8C1"/>
+  <circle cx="898" cy="339" r="9" fill="#FFFFFF"/>
+  <circle cx="925" cy="300" r="9" fill="#79D8C1"/>
+  <path d="M974 332h92" fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/>
+  <path d="m1027 290 49 42-49 42" fill="none" stroke="#FFFFFF" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1062" y="224" width="154" height="216" rx="48" fill="url(#proof)"/>
+  <path d="m1098 332 31 31 57-68" fill="none" stroke="#22245E" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

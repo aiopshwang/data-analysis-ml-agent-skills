@@ -4,7 +4,7 @@
 
 [English](README.md) · [방법론](docs/methodology.md) · [평가 방식](docs/evaluation.md) · [기여 안내](CONTRIBUTING.md)
 
-[![Decision-Grade Data Science 워크플로: 엉킨 데이터가 감사와 검증 단계를 거쳐 검증되고 재현 가능한 의사결정으로 연결됩니다.](docs/assets/decision-grade-data-science-hero.webp)](docs/methodology.md)
+[![Decision-Grade Data Science — 엉킨 데이터를 방어 가능한 의사결정으로.](docs/assets/social-card.svg)](docs/methodology.md)
 
 *엉킨 데이터를 방어 가능한 의사결정으로 — [근거 중심 방법론 보기](docs/methodology.md).*
 

@@ -4,7 +4,7 @@
 
 [한국어](README.ko.md) · [Methodology](docs/methodology.md) · [Evaluation](docs/evaluation.md) · [Contributing](CONTRIBUTING.md)
 
-[![Decision-Grade Data Science workflow: messy data passes through audited evidence checkpoints to a validated, reproducible decision.](docs/assets/decision-grade-data-science-hero.webp)](docs/methodology.md)
+[![Decision-Grade Data Science — From messy data to defensible decisions.](docs/assets/social-card.svg)](docs/methodology.md)
 
 *From messy data to defensible decisions — [see the evidence-first methodology](docs/methodology.md).*
 
