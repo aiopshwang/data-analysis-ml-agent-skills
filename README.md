@@ -118,13 +118,21 @@ The repository checks manifest and frontmatter integrity, local links, UI metada
     python scripts/scan_public.py
     pytest
 
-The [trigger prompt set](evals/trigger-prompts.yaml) contains direct, indirect, and negative cases for all six skills. Static checks do not prove behavior; see the [v0.1.0 independent forward-test record](evals/results/v0.1.0-forward-test.md) for one realistic readiness scenario.
+The [trigger prompt set](evals/trigger-prompts.yaml) contains direct, indirect, and negative cases for all seven skills. Static checks do not prove behavior; see the [v0.1.0 independent forward-test record](evals/results/v0.1.0-forward-test.md) for one realistic readiness scenario.
 
 ## Privacy and security
 
 The public suite contains generalized procedures and synthetic templates, not customer data or copied project artifacts. Do not paste sensitive data into an agent unless the surrounding product, workspace, permissions, and retention policy are appropriate.
 
 See [SECURITY.md](SECURITY.md) for vulnerability reporting and trust boundaries.
+
+## aiopshwang skill family
+
+Independent, evidence-first Agent Skills that work well together:
+
+- [goal-to-proof](https://github.com/aiopshwang/goal-to-proof) — the general completion gate: finish authorized work and prove the requested outcome.
+- [verify-regression-tests](https://github.com/aiopshwang/verify-regression-tests) — prove that a regression test actually detects its intended defect.
+- [ship-mobile-app](https://github.com/aiopshwang/ship-mobile-app) — production mobile work across domain, state, lifecycle, platform, and release boundaries.
 
 ## License
 

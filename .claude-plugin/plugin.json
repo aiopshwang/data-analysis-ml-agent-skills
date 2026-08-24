@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "data-analysis-ml-agent-skills",
+  "displayName": "Decision-Grade Data Science",
+  "version": "0.2.0",
+  "description": "Evidence-first AI agent skills for reliable data analysis, machine learning, and reproducible model validation.",
+  "author": { "name": "aiopshwang", "url": "https://github.com/aiopshwang" },
+  "homepage": "https://github.com/aiopshwang/data-analysis-ml-agent-skills#readme",
+  "repository": "https://github.com/aiopshwang/data-analysis-ml-agent-skills",
+  "license": "MIT",
+  "keywords": ["agent-skills", "data-analysis", "data-science", "machine-learning", "data-quality", "model-validation", "reproducibility"],
+  "skills": "./skills/"
+}

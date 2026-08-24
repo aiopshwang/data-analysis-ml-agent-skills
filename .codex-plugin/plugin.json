@@ -1,6 +1,6 @@
 {
   "name": "data-analysis-ml-agent-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Evidence-first AI agent skills for reliable data analysis, machine learning, and reproducible model validation.",
   "author": {
     "name": "aiopshwang",

@@ -1,6 +1,16 @@
 version: 1
 purpose: "Golden prompts for checking skill-selection precision and recall."
 skills:
+  using-data-analysis:
+    direct:
+      - "Route this data analysis request to the right skill in this suite."
+      - "Which data analysis or machine learning skill here should handle this task?"
+    indirect:
+      - "I have a modeling problem but I am not sure which of these skills applies."
+      - "Something in our ML workflow needs attention; point me to the matching specialized skill."
+    negative:
+      - "Translate this SQL query into pandas code."
+      - "Explain the difference between precision and recall."
   running-decision-grade-data-science:
     direct:
       - "Use an evidence-first process to lead this data science project from question to handoff."

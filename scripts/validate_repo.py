@@ -11,6 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SKILLS = {
+    "using-data-analysis",
     "running-decision-grade-data-science",
     "auditing-data-and-ground-truth",
     "designing-leakage-safe-experiments",

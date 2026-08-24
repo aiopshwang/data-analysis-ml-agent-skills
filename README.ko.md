@@ -83,6 +83,14 @@ Claude Code에는 codex 대신 claude-code를 사용합니다. 직접 설치하�
 
 저장소는 스킬과 플러그인 메타데이터, 로컬 링크, 미완성 문구, 트리거 평가셋, 비밀정보 패턴을 검사합니다. 정적 검사와 별도로 독립적인 행동 평가도 수행합니다.
 
+## aiopshwang 스킬 패밀리
+
+함께 쓰기 좋은 독립 Agent Skill들:
+
+- [goal-to-proof](https://github.com/aiopshwang/goal-to-proof) — 범용 완료 게이트: 승인된 작업을 끝까지 수행하고 결과를 증명합니다.
+- [verify-regression-tests](https://github.com/aiopshwang/verify-regression-tests) — 회귀 테스트가 의도한 결함을 실제로 잡는지 증명합니다.
+- [ship-mobile-app](https://github.com/aiopshwang/ship-mobile-app) — 도메인·상태·라이프사이클·플랫폼·릴리스 경계를 관통하는 프로덕션 모바일 작업을 다룹니다.
+
 ## 개인정보와 라이선스
 
 공개 저장소에는 일반화된 절차와 합성 템플릿만 포함하며 고객 데이터나 기존 프로젝트 원문을 포함하지 않습니다. 보안 제보 방법과 신뢰 경계는 [SECURITY.md](SECURITY.md)를 확인하세요.

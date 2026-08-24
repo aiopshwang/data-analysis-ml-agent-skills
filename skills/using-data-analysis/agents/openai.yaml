@@ -1,0 +1,4 @@
+interface:
+  display_name: "Using Data Analysis Skills"
+  short_description: "Route work to the right data analysis skill"
+  default_prompt: "Use $using-data-analysis to pick the right skill in this suite for my analysis task."
