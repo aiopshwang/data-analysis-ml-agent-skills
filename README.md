@@ -146,6 +146,7 @@ Independent, evidence-first Agent Skills that work well together:
 - [goal-to-proof](https://github.com/aiopshwang/goal-to-proof) — the general completion gate: finish authorized work and prove the requested outcome.
 - [verify-regression-tests](https://github.com/aiopshwang/verify-regression-tests) — prove that a regression test actually detects its intended defect.
 - [ship-mobile-app](https://github.com/aiopshwang/ship-mobile-app) — production mobile work across domain, state, lifecycle, platform, and release boundaries.
+- [fresh-eyes-check](https://github.com/aiopshwang/fresh-eyes-check) — a context-free second model checks whether an earlier instruction still fits before you act on it.
 
 ## License
 

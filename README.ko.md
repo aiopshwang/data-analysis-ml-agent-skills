@@ -144,6 +144,7 @@ Claude Code에는 codex 대신 claude-code를 사용합니다.
 - [goal-to-proof](https://github.com/aiopshwang/goal-to-proof) — 범용 완료 게이트: 승인된 작업을 끝까지 수행하고 결과를 증명합니다.
 - [verify-regression-tests](https://github.com/aiopshwang/verify-regression-tests) — 회귀 테스트가 의도한 결함을 실제로 잡는지 증명합니다.
 - [ship-mobile-app](https://github.com/aiopshwang/ship-mobile-app) — 도메인·상태·라이프사이클·플랫폼·릴리스 경계를 관통하는 프로덕션 모바일 작업을 다룹니다.
+- [fresh-eyes-check](https://github.com/aiopshwang/fresh-eyes-check) — 맥락 없는 다른 모델이 예전 지시가 지금도 맞는지 확인한 뒤 행동.
 
 ## 라이선스
 
